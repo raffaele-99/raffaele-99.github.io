@@ -8,7 +8,6 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 70vh;
 }
 
 
@@ -27,14 +26,14 @@ p {
   color: rgb(168, 168, 168);
   font-family: Fira;
   text-align:center;
-  font-size:3vh;
+  font-size:2vh;
 }
 
 .lil {
   color: rgb(120, 120, 120);
   font-family: Fira;
   text-align:center;
-  font-size:3vh;
+  font-size:1.5vh;
 }
 
 a:link {
@@ -65,4 +64,3 @@ a:hover {
   text-align:center;
   font-size:5vh;
 }
-
