@@ -1,0 +1,55 @@
+@font-face {
+    font-family: grotesk; 
+    src: url('SchibstedGrotesk-VariableFont_wght.ttf');
+  }
+
+body{
+    display: grid;
+    margin:0;
+    width: 100vw;
+    height: 100vh;
+    place-items: center;
+}
+  
+.main{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:rgba(3, 54, 73, 0.274);
+}
+
+.lhs{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    align-items:center;
+    justify-content:left;
+    background-color:rgba(255, 0, 0, 0.274);
+}
+
+.mid {
+    width: 30%;
+    height: 90%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:rgba(25, 0, 255, 0.274);
+}
+
+.rhs{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    background-color:rgba(98, 190, 80, 0.589);
+}
+
+p{
+    font-family: grotesk;
+    font-size:5vh;
+}
