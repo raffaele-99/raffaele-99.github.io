@@ -1,0 +1,14 @@
+main{
+    top:0;
+    left:0;
+    position:absolute;
+    width:95%;
+    height:95%;
+    display:table;
+}
+
+p{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+}
