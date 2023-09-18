@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="overlay"></div>
+    <!-- Header with Hamburger Menu -->
+    <header>
+        <div class="menu-btn">
+            <div class="menu-btn__line"></div>
+            <div class="menu-btn__line"></div>
+            <div class="menu-btn__line"></div>
+        </div>
+        <nav class="nav">
+            <ul class="menu-nav">
+                <li class="menu-nav__item active"><a href="#" class="menu-nav__link">Home</a></li>
+                <li class="menu-nav__item"><a href="#" class="menu-nav__link">About</a></li>
+                <li class="menu-nav__item"><a href="#" class="menu-nav__link">Resume</a></li>
+                <li class="menu-nav__item"><a href="#" class="menu-nav__link">Portfolio</a></li>
+                <li class="menu-nav__item"><a href="#" class="menu-nav__link">Skills</a></li>
+                <li class="menu-nav__item"><a href="#" class="menu-nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Your Name and Picture -->
+        <section class="intro">
+            <h1>Luca Fuda</h1>
+            <img src="1.jpg" alt="Your Face" class="profile-pic">
+        </section>
+
+        <!-- Tiles -->
+        <section class="tiles">
+            
+            <div class="tile" onclick="location.href='about.html'">
+                <video autoplay muted loop class="tile-video">
+                    <source src="test.mp4" type="video/mp4">
+                </video>
+                <h2 class="tile-header">MUSIC PRODUCTION</h2>
+            </div>
+
+            <div class="tile" onclick="location.href='link_to_page.html'">
+                <img src="img.jpg" alt="Tile Image" class="tile-background">
+                <h2 class="tile-header">Game Development</h2>
+            </div>
+
+            <div class="tile" onclick="location.href='link_to_page.html'">
+                <img src="img.jpg" alt="Tile Image" class="tile-background">
+                <h2 class="tile-header">Digital Art & Content Creation</h2>
+            </div>
+            
+        </section>
+    </main>
+
+</body>
+
+</html>
